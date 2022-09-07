@@ -1,1 +1,8 @@
-/* styles go here */
+.file__field {
+  display: block;
+  margin-bottom: 10px;
+}
+.container {
+  margin-bottom: 20px;
+}
+
