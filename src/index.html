@@ -81,27 +81,29 @@
       </fieldset>
       <fieldset class="container">
         <legend>An interesting fact about you!</legend>
+        <div class="file__field">
         Do you love cats?
-        <label>
-          <input
-            type="radio"
-            name="radio"
-            class="radio"
-          >
-          Yes
-        </label>
-        <label>
-          <input
-            type="radio"
-            name="radio"
-          >
-          No
-        </label>
+          <label>
+            <input
+              type="radio"
+              name="radio"
+            >
+            Yes
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="radio"
+            >
+            No
+          </label>
+        </div>
         <label class="file__field">
           What is your favorite color?
           <input
             type="color"
             name="color"
+            class="file"
           >
         </label>
         <label class="file__field">
@@ -139,10 +141,8 @@
           <textarea
             name="textarea"
             id="textarea"
-            cols="30"
-            rows="10"
             minlength="1"
-            maxlength="20"
+            maxlength="10"
            >
           </textarea>
         </label>
